@@ -1,7 +1,9 @@
+import os
 ##################### Extra Hard Starting Project ######################
+
 import smtplib
-my_email="kalpa0390@gmail.com"
-password="hgbp pfum civb puog"
+MY_EMAIL = os.environ.get("MY_EMAIL")
+MY_PASSWORD = os.environ.get("MY_PASSWORD")
 import random
 
 # 1. Update the birthdays.csv
